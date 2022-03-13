@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <header>
+      <div style="text-align: center;">      
+        <img src="logotipo.png" width="20%">
+      </div>
+    </header>
+   <h2>Proporciona tus datos para realizar el pedido</h2>
+   <br>
+      <!-- El formulario debe de contener los datos de contacto del cliente que son Nombre, Teléfono, Correo Electrónico, Descripción general del pastel y la selección de sabores y adornos. -->
+      <form action="pedido">
+            <label for="nombre">Nombre</label><br>
+            <input type="text" id="Nombre" name="Nombre">
+          <br><br>
+         
+            <label for="Teléfono">Teléfono</label><br>
+            <input type="tel" id="Teléfono" name="Teléfono" maxlength="10">
+          <br><br>
+
+            <label for="correo">Correo Electrónico</label><br>
+            <input type="email" id="correo" name="correo">
+          <br><br>
+
+          <h3>Selecciona un Pastel</h3>
+          <input type="radio" id="pastel" name="pastel" value="Pastel de Vainilla tres leches">
+          <label for="Pastel de Vainilla tres leches">Pastel de Vainilla tres leches</label><br>
+          <input type="radio" id="pastel" name="pastel" value="Pastel de Chocolate tres leches">
+          <label for="Pastel de Chocolate tres leches">Pastel de Chocolate tres leches</label><br>
+          <input type="radio" id="pastel" name="pastel" value="Pastel de Oreo">
+          <label for="Pastel de Oreo">Pastel de Oreo</label><br>
+          <input type="radio" id="pastel" name="pastel" value="Pastel de Mocca">
+          <label for="Pastel de Mocca">Pastel de Mocca</label><br>
+
+          <h3>Selecciona un relleno</h3>
+
+          <input type="radio" id="relleno" name="relleno" value="Fresas con crema batida">
+          <label for="Fresas con crema batida">Fresas con crema batidas</label><br>
+
+          <input type="radio" id="relleno" name="relleno" value="Duraznos con crema batida">
+          <label for="Duraznos con crema batida">Duraznos con crema batida</label><br>
+
+          <input type="radio" id="relleno" name="relleno" value="Nueces con crema batida">
+          <label for="Nueces con crema batida">Nueces con crema batida</label><br>
+
+          <input type="radio" id="relleno" name="relleno" value="Ganache (crema de chocolate)">
+          <label for="Ganache (crema de chocolate)">Ganache (crema de chocolate)</label><br>
+         <br>
+         
+         <h3>Selecciona un toping</h3>
+
+         <input type="radio" id="toping" name="toping" value="	Fresa, durazno, kiwi y cereza">
+         <label for="	Fresa, durazno, kiwi y cereza">	Fresa, durazno, kiwi y cereza</label><br>
+
+         <input type="radio" id="toping" name="toping" value="	Cobertura de chocolate">
+         <label for="	Cobertura de chocolate">	Cobertura de chocolate</label><br>
+
+         <input type="radio" id="toping" name="toping" value="	Cubierta de nata">
+         <label for="	Cubierta de nata">	Cubierta de nata</label><br>
+
+         <input type="radio" id="toping" name="toping" value="Sirope">
+         <label for="Sirope">Sirope</label><br>
+
+         <input type="radio" id="toping" name="toping" value="Galletas Oreo">
+         <label for="Galletas Oreo">Galletas Oreo</label><br>
+        <br>
+        
+      <input type="button" id="Ordenar" name="Ordenar" value="Ordenar">
+      <br><br>
+
+      </form>
+    </div>
+  </body>
+</html>
